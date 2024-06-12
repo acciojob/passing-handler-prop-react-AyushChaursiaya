@@ -1,0 +1,46 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+ .blue {
+    background-color: blue;
+    font-size: medium;
+}
+
+.orange {
+    background-color: orange;
+    font-size: medium;
+}
+
+.green {
+    background-color: green;
+    font-size: medium;
+}
+
+.boxes {
+    display: flex;
+    padding: 10px;
+}
+
+.boxes div {
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    font-size: medium;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid #e3e3e3;
+}
