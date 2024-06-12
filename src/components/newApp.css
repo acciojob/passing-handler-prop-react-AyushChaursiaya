@@ -28,12 +28,12 @@ button {
     font-size: medium;
 }
 
-.boxes {
+.fix-box {
     display: flex;
     padding: 10px;
 }
 
-.boxes div {
+.fix-box div {
     padding: 15px;
     margin: 10px;
     width: 200px;

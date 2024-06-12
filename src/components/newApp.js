@@ -20,7 +20,7 @@ const Handler = () => {
             <button className="btn orange" data-testid="orange" onClick={() => handleColorChange('orange')}>Orange</button>
             <button className="btn green" data-testid="green" onClick={() => handleColorChange('green')}>Green</button>
         </div>
-        <div className="boxes">
+        <div className="fix-box">
             <div className="box" id="box1" onClick={() => handleBoxChange('box1')}>Selection</div>
             <div className="box" id="box2" onClick={() => handleBoxChange('box2')}>Selection</div>
             <div className="box" id="box3" onClick={() => handleBoxChange('box3')}>Selection</div>
