@@ -13,20 +13,21 @@ button {
     padding: 10px;
 }
 
- .blue {
-    background-color: blue;
+.blue {
+    background-color: rgb(0, 0, 255);
     font-size: medium;
 }
 
 .orange {
-    background-color: orange;
+    background-color: rgb(255, 165, 0);
     font-size: medium;
 }
 
 .green {
-    background-color: green;
+    background-color: rgb(0, 128, 0);
     font-size: medium;
 }
+
 
 .fix-box {
     display: flex;
